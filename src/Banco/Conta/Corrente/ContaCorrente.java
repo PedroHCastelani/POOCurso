@@ -1,4 +1,6 @@
 package Banco.Conta.Corrente;
 
-public class ContaCorrente {
+import Banco.Conta.Conta;
+
+public class ContaCorrente extends Conta {
 }

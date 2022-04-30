@@ -1,17 +1,17 @@
 package Banco.Metodos;
 
-import Banco.Clientes.Clientes;
+import Banco.Cliente.Cliente;
 
 public class CriarClientes {
-    Clientes novoCliente = new Clientes();
+    Cliente novoCliente = new Cliente();
 
 
 
-    public Clientes getNovoCliente() {
+    public Cliente getNovoCliente() {
         return novoCliente;
     }
 
-    public void setNovoCliente(Clientes novoCliente) {
+    public void setNovoCliente(Cliente novoCliente) {
         this.novoCliente = novoCliente;
     }
 }

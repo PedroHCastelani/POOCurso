@@ -2,8 +2,8 @@ package Banco.Agencia;
 
 public class Agencia {
 
-    String nome;
-    String numeroAgencia;
+    private String nome;
+    private String numeroAgencia;
 
     public Agencia(){
         nome = "Agencia Principal";
